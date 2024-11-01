@@ -1,0 +1,42 @@
+.soundcloud_liked_tracks {
+    display: block;
+    position: relative;
+}
+
+.slt-slider,
+.slt-slider img {
+    position: relative;
+    display: block;
+}
+
+.slt-slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.slt-slider a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-origin: border-box;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.slt-slider ul li {
+    display: none;
+}
+
+.slt-slider iframe,
+.flex-viewport {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slides,
+.slides li {
+    height: 100%;
+}
